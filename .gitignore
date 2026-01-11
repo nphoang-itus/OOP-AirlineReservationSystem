@@ -34,11 +34,25 @@
 # Other
 .temp/
 .vscode/
-# source/build/
-# source/docs/
-# source/Doxyfile
+source/build/
+source/docs/
+source/Doxyfile
 
-source/CMakeLists.txt
+# CMake files
+CMakeFiles/
+# CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# CLion/JetBrains IDE
+.idea/
+cmake-build-*/
 
 # macOS system files
 .DS_Store
